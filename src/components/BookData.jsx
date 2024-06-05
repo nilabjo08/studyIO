@@ -2,7 +2,7 @@
 
 
 const booksData = [
-    { id: 1, title: 'Book Title 1', author: 'Author 1', description: 'This comprehensive guide explores the fundamental principles of physics. It covers topics from classical mechanics to quantum theory. Perfect for students and enthusiasts alike, it simplifies complex concepts.', pdf: "../assets/cover.pdf", image: "/assets/bookimg/web.jpg"},
+    { id: 1, title: 'Book Title 1', author: 'Author 1', rating: '4.5', description: 'This comprehensive guide explores the fundamental principles of physics. It covers topics from classical mechanics to quantum theory. Perfect for students and enthusiasts alike, it simplifies complex concepts.', pdf: "../assets/cover.pdf", image: "/assets/bookimg/web.jpg"},
     { id: 2, title: 'Book Title 2', author: 'Author 2', description: 'This comprehensive guide explores the fundamental principles of physics. It covers topics from classical mechanics to quantum theory. Perfect for students and enthusiasts alike, it simplifies complex concepts.', pdf: 'https://pdfdrive.com.co/cracking-codes-with-python/' },
     { id: 3, title: 'Book Title 3', author: 'Author 3', description: 'This comprehensive guide explores the fundamental principles of physics. It covers topics from classical mechanics to quantum theory. Perfect for students and enthusiasts alike, it simplifies complex concepts.', pdf: 'https://pdfdrive.com.co/cracking-codes-with-python/' },
     { id: 4, title: 'Book Title 4', author: 'Author 4', description: 'This comprehensive guide explores the fundamental principles of physics. It covers topics from classical mechanics to quantum theory. Perfect for students and enthusiasts alike, it simplifies complex concepts.', pdf: 'https://pdfdrive.com.co/cracking-codes-with-python/' },

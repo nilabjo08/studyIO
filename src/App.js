@@ -24,7 +24,7 @@ function App() {
     <BrowserRouter>
       <SideBar isActive={isActive} setIsActive={setIsActive} />
       <div className="mainpage">
-        <Header setIsActive={setIsActive}  />
+        <Header isActive={isActive} setIsActive={setIsActive}  />
         <Routes>
           <Route path="/" element={<Welcome/>}/>
           <Route path="/home" element={<Home />} />

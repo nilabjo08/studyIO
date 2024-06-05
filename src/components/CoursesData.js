@@ -7,6 +7,8 @@ const COURSES = [
     image: 'https://images.unsplash.com/photo-1715509758911-e00b33e0459a?q=80&w=1565&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     description:
       "Learn the fundamentals of C programming with this comprehensive tutorial, covering everything from basic syntax to advanced concepts. Perfect for beginners and those looking to refresh their skills.",
+    rating: "4.5",
+    duration: "10hr 35m",
     v_path1: "irqbmMNs2Bo",
     v_path2: "KJgsSFOSQv0",
   },
@@ -16,6 +18,8 @@ const COURSES = [
     data: "ft.YouTube",
     description:
       "Master Java programming with this in-depth video tutorial, exploring core concepts and advanced techniques. Ideal for beginners and experienced developers seeking to enhance their Java skills",
+    rating: "4.5",
+    duration: "10hr 35m",
     v_path1: "A74TOX803D0",
     v_path2: "SiBw7os-_zI",
   },
@@ -25,6 +29,8 @@ const COURSES = [
     data: "ft.YouTube",
     description:
       "Dive into Python programming with this detailed tutorial, from basic syntax to advanced features. Great for beginners and seasoned coders looking to expand their Python knowledge",
+    rating: "4.5",
+    duration: "10hr 35m",
     v_path1: "rfscVS0vtbw",
     v_path2: "JJmcL1N2KQs",
   },
@@ -34,6 +40,8 @@ const COURSES = [
     data: "ft.YouTube",
     description:
       "Explore the essentials of Digital Electronics with this detailed video tutorial, covering key concepts and practical applications. Perfect for students and enthusiasts looking to deepen their understanding of digital circuits.",
+    rating: "4.5",
+    duration: "10hr 35m",
     v_path1: "pHNbm-4reIc",
     v_path2: "DsK35f8wyUw",
   },
@@ -43,6 +51,8 @@ const COURSES = [
     data: "ft.YouTube",
     description:
       "Dive into the world of Artificial Intelligence with this detailed video guide, covering key concepts and real-world applications. Perfect for enthusiasts and professionals looking to deepen their AI knowledge.",
+    rating: "4.5",
+    duration: "10hr 35m",
     v_path1: "5NgNicANyqM",
     v_path2: "i_LwzRVP7bg",
   },  
@@ -52,6 +62,8 @@ const COURSES = [
     data: "ft.YouTube",
     description:
       "Dive into the world of computer networks with this detailed video tutorial, explaining key concepts and protocols. Perfect for students and professionals looking to deepen their understanding of network architecture and communication.",
+    rating: "4.5",
+    duration: "10hr 35m",
     v_path1: "IPvYjXCsTg8",
     v_path2: "qiQR5rTSshw",
   },
@@ -61,6 +73,8 @@ const COURSES = [
     data: "ft.YouTube",
     description:
       "Explore the essentials of operating systems in this detailed video, covering key concepts like process management, memory management, and file systems. Perfect for students and IT professionals seeking a solid understanding of OS fundamentals.",
+    rating: "4.5",
+    duration: "10hr 35m",
     v_path1: "ROjZy1WbCIA",
     v_path2: "iwolPf6kN-k",
   }, 
@@ -70,6 +84,8 @@ const COURSES = [
     data: "ft.YouTube",
     description:
       "Discover the essentials of database management in this detailed video, including SQL basics, database design, and optimization techniques. Perfect for beginners and those looking to improve their database skills.",
+    rating: "4.5",
+    duration: "10hr 35m",
     v_path1: "4cWkVbC2bNE",
     v_path2: "KBDSJU3cGkc",
   },
@@ -79,6 +95,8 @@ const COURSES = [
     data: "ft.YouTube",
     description:
       "Discover the essentials of computer architecture in this detailed video, covering everything from basic components to complex systems. Perfect for students and professionals looking to deepen their understanding of how computers work.",
+    rating: "4.5",
+    duration: "10hr 35m",
     v_path1: "DsK35f8wyUw",
     v_path2: "pHNbm-4reIc",
   },
@@ -88,6 +106,8 @@ const COURSES = [
     data: "ft.YouTube",
     description:
       "Unlock the power of data science in this comprehensive video, delving into statistical analysis, machine learning algorithms, and data visualization techniques. Perfect for aspiring data scientists and professionals looking to advance their analytical skills.",
+    rating: "4.5",
+    duration: "10hr 35m",
     v_path1: "N6BghzuFLIg",
     v_path2: "XU5pw3QRYjQ",
   },
@@ -97,6 +117,8 @@ const COURSES = [
     data: "ft.YouTube",
     description:
       "Unlock the secrets of web development with this dynamic video, delving into HTML, CSS, JavaScript, and more to create stunning websites from scratch. Perfect for aspiring developers and seasoned professionals aiming to expand their web development repertoire.",
+    rating: "4.5",
+    duration: "10hr 35m",
     v_path1: "zJSY8tbf_ys",
     v_path2: "7fjOw8ApZ1I",
   },
@@ -106,6 +128,8 @@ const COURSES = [
     data: "ft.YouTube",
     description:
       "Unlock the secrets of Android app development in this immersive video guide, from creating UIs to integrating powerful features. Perfect for aspiring app developers looking to dive into the world of Android.",
+    duration: "10hr 35m",
+    rating: "4.5",
     v_path1: "fis26HvvDII",
     v_path2: "BBWyXo-3JGQ",
   },

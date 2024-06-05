@@ -8,10 +8,14 @@ const CourseCard = () => {
     <>
       <div className="row">
         {COURSES.map(courses =>(
-            <div key= {courses.id} className="col">
+            <div key= {courses.id} className="col course-card">
                 <img src={courses.image} sizes='20' className='course-image' alt="" />
                 <h4>{courses.heading}</h4>
-                <p>{courses.data}</p><br></br>
+                <p>{courses.data}</p>
+                <div className='course-rd'>
+                  <p>{courses.rating}⭐</p>
+                  <p>{courses.duration}⌛</p>
+                </div>
                 <Link to={`/courses/${courses.id}`}>
                   <button className='enroll-btn'>Enroll Now</button>
                 </Link>

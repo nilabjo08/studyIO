@@ -3,12 +3,12 @@ import { IoMenu } from "react-icons/io5";
 import { SiStudyverse } from "react-icons/si";
 
 
-const Header = ({ setIsActive }) => {
+const Header = ({ isActive, setIsActive }) => {
 
   return (
     <div className="header">
       <div className="ham-menu">
-      <IoMenu onClick={() => setIsActive(true)} />
+      <IoMenu onClick={() => setIsActive(prev => !prev)} />
       </div>
       <div className="logo">
           <SiStudyverse />

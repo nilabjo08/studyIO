@@ -42,7 +42,7 @@ ul {
 .mainpage{
   margin-left: 0;
   padding: 10px;
-  transition: all 0.7s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 a{
   text-decoration: none;
@@ -68,7 +68,7 @@ a{
   background-color: #B1A8B9;
   color: #000;
   transform: translateX(-110%);
-  transition: all 0.7s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 .sidebar.active {
   transform: translateX(0);
@@ -508,7 +508,9 @@ a{
 }
 
 /*---------course details---------*/
-
+.course-card{
+  padding: 0;
+}
 .course-image{
   width: 96%;
   margin-left: 2%;
@@ -517,7 +519,11 @@ a{
   margin: 2px 8px;
   border-radius: 5px;
 }
-
+.course-rd{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
 .deets{
   display: flex;
   flex-wrap: wrap;
@@ -955,8 +961,13 @@ a{
 
 .book-showcase {
   padding: 20px;
+  background-color: #5b8ec5;
+  border-radius:25px 25px 0 0;
 }
-
+.book-showcase > h2 {
+  color : #Fff;
+  font-size: 2rem;
+}
 .book-list {
   display: flex;
   flex-wrap: wrap;
@@ -1047,7 +1058,7 @@ a{
   transition: transform 0.3s, box-shadow 0.3s;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  background-color: #b1a8b9d7;
+  background-color: #d6e1ee;
   max-width: 200px;
   flex: 1 0 200px; 
   display: flex;
