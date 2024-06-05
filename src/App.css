@@ -1,15 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 html{
   scroll-behavior: smooth;
 }
 *{
-  margin: 2px;
-  padding: 2px;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
   font-style: normal;
+  font-family: "Poppins", sans-serif;
+}
+body{
+  margin: 0;
+  padding: 0;
 }
 .ibm-plex-sans-bold {
-  font-family: "IBM Plex Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 60px;
   font-weight: 600;
   font-style: normal;
@@ -221,14 +228,15 @@ a{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin: 30px auto;
 }
 .top .col{
   border-radius: 5px;
-  box-shadow: 10px 10px 20px #1B2C34;
+  box-shadow: 1px 2px 15px #1B2C34;
   background-color: #B1A8B9;
   margin: 10px;
   padding: 15px;
-  width: 40%;
+  width: 400px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -258,7 +266,7 @@ a{
   margin: 10px;
 }
 .col-home:hover{
-  background-image: linear-gradient(#2C2C54, #E0E1DD);
+  background-color: rgb(192, 188, 188);
   color: #000;
 }
 .swiper-card-popular .card-home h1{
@@ -286,6 +294,8 @@ a{
   font-size: 20px;
   font-weight: 200;
   font-style: normal;
+  width: 60%;
+  margin-left: 20%;
 }
 .image {
   width: 100%;
@@ -302,6 +312,7 @@ a{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    gap: 30px;
   }
 .image-card-col{
   width: 40%;
@@ -371,11 +382,13 @@ a{
 
 .swiper-card-popular{
   margin-top: 25px;
+  background-color: lightgray;
+  border-radius: 5px;
 }
 .swiper-card-popular h1{
   text-align: center;
   font-size: 50px;
-  font-weight: 200;
+  font-weight: 300;
   font-style: normal;
 }
 .swiper-card-popular p{
@@ -409,6 +422,12 @@ a{
 }
 .swiper-card h1{
   text-align: center;
+}
+
+.course_card{
+  background-color: #d3e1f0;
+  width: 100%;
+  border-radius: 5px;
 }
 
 .course_card svg{
@@ -446,18 +465,19 @@ a{
 }
 .course_card .col {
   border-radius: 5px;
-  background-color:  #27274b;
+  background-color:  #3d5597;
   color: white;
   /* color: black; */
   box-shadow: 5px 5px 10px #3E4A1D;
   margin: 10px;
   padding: 15px;
-  width: 30%;
+  width: 25%;
   height: 50%;
   font-size: 20px;
   display: flex;
   align-items: center;
   flex-direction: column;
+  margin-top: 30px;
 }
 .enroll-btn{
   color: #000000;
@@ -518,11 +538,15 @@ a{
 /*-------------online courses---------*/
 .online-course-c{
   margin-top: 20px;
+  background-color: #d3e1f0;
+  width: 100%;
+  border-radius: 10px;
+  padding: 20px auto;
 }
 .online-course-c h1{
   text-align: center;
   font-size: 50px;
-  font-weight: 200;
+  font-weight: 400;
   font-style: normal;
 }
 .online-course-c p{
@@ -532,6 +556,7 @@ a{
   font-size: 20px;
   font-weight: 200;
   font-style: normal;
+  
 }
 .online {
   text-align: center;
@@ -544,10 +569,11 @@ a{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  gap: 20px;
 }
 .online .box {
   border-radius: 8px;
-  background-color: #2C2C54;
+  background-color: #3d5597;
   color: #fff;
   border: 1px solid #afa9a9;
   margin: 10px;
@@ -578,12 +604,13 @@ a{
   padding: 5px 20px;
   font-weight: 500;
   font-size: 15px;
+  border-radius: 5px;
 }
 .online .box .show {
   opacity: 0;
 }
 .online .box:hover {
-  background-color: #e0e1dd;
+  background-color: #a5b0ee;
   border-radius: 5px;
   cursor: pointer;
 }
@@ -595,6 +622,15 @@ a{
   position: absolute;
   top: 0;
   left: 0;
+}
+/* .online span:hover{
+  background-color: #b7d0f1;
+  color: #2C2C54;
+} */
+.online .box:hover span{
+  background-color: #3d5597;
+  color: white;
+  
 }
 
 .reg-form{

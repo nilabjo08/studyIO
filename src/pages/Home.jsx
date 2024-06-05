@@ -22,34 +22,40 @@ const Home = () => {
       <div className="line"></div>
       <div className="top">
         <div className="row">
-          <div className="col">
-            <p>Explore our courses!</p>
-            <Link to={"/course"}>
+          <Link to={"/course"}>
+            <div className="col">
+              <p>Explore our courses!</p>
               <div className="back_to_course">
                 <FaAngleRight />
               </div>
-            </Link>
-          </div>
-          <div className="col">
-            <p>Get your hand on our e-library</p>
-            <Link to={"/book"}>
+            </div>
+          </Link>
+          <Link to={"/book"}>
+            <div className="col">
+              <p>Get your hand on our e-library</p>
               <div className="back_to_course">
                 <FaAngleRight />
               </div>
-            </Link>
-          </div>
+            </div>
+          </Link>
         </div>
       </div>
       {/*   ____________Categories course card___________________   */}
       <section className="online-course-c">
         <h1>Categories</h1>
-        <p>Explore a diverse range of subjects tailored to your interests. Advance your skills with courses designed for every learning level.</p>
+        <p>
+          Explore a diverse range of subjects tailored to your interests.
+          Advance your skills with courses designed for every learning level.
+        </p>
         <OnlineCourses />
       </section>
       {/*   ____________image hover text course card___________________   */}
       <section className="courseHover">
         <h1>Get to know about our courses</h1>
-        <p>Discover the unique benefits and opportunities each course offers. Learn from industry experts and gain practical, hands-on experience.</p>
+        <p>
+          Discover the unique benefits and opportunities each course offers.
+          Learn from industry experts and gain practical, hands-on experience.
+        </p>
         <ImageCard />
       </section>
       {/*   ____________swiper popular course card___________________   */}
@@ -65,8 +71,8 @@ const Home = () => {
             loop={true}
             speed={4000}
             autoplay={{
-                    delay: 1000,
-                }}
+              delay: 1000,
+            }}
             pagination={{
               clickable: true,
             }}
