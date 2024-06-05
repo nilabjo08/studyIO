@@ -217,6 +217,18 @@ a{
 }
 
 /*----------------home-------------*/
+.hero {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero > h1 {
+  font-size: 5rem;
+  position: absolute;
+  color: #Fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adjust the shadow as needed */
+}
 .hero img{
   width: 100%;
 }
