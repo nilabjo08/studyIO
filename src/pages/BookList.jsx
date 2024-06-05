@@ -25,7 +25,6 @@ const BookList = () => {
             <section className="book-showcase">
                 <h2>Featured Books</h2>
                 <div className="book-list">
-                    {console.log(filteredBooks)}
                     {filteredBooks.map(book => (
                         <Book
                             key={book.id}
