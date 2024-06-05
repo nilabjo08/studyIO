@@ -38,7 +38,7 @@ const Blog = () => {
     <>
       <div className="blog-container">
       <CreatePost />
-      <div className="blog">
+      <div className="blog-posts">
         <h2>Recent Posts</h2>
         <div className="post">
           {posts.map((value) => (

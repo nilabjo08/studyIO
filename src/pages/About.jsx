@@ -5,8 +5,8 @@ const About = () => {
   return (
     <>
     <div className="testc">
-            <Testimonial/>
-        </div>
+      <Testimonial/>
+    </div>
     </>
   )
 }

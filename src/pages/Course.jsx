@@ -18,6 +18,7 @@ const About = () => {
     
   return (
     <>
+    <h1 className='course-heading-text'>Courses</h1>
     {/*   ____________swiper image card___________________   */}
     <section className="swiper-img-card">
     <Swiper

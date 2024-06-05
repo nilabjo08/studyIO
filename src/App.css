@@ -364,6 +364,10 @@ a{
   }
 
 /*--------------course page css--------------*/
+.course-heading-text{
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
 .swiper-img-card{
   width: 100%;
   transition: all 0.8s;
@@ -685,7 +689,7 @@ a{
   font-size: 26px;
 }
  /*-----------testimonial------------*/
- .testimonials{
+ /* .testimonials{
   text-align: center;
  }
 .testimonial{
@@ -694,7 +698,40 @@ a{
   box-shadow: 5px 5px 10px #3E4A1D;
   margin: 20px;
   padding: 5px;
+} */
+.testimonials {
+  text-align: center;
+  margin-bottom: 50px;
 }
+
+.testimonial-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.testimonial {
+  background-color: #f9f9f9;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  max-width: 300px;
+  flex: 0 1 calc(50% - 20px);
+}
+
+.testimonial-content {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.testimonial-author {
+  font-style: italic;
+  font-weight: bold;
+}
+
 
 /*-------------------LoginSignup Page-----------------*/
 .log{
@@ -846,15 +883,16 @@ a{
   flex-direction: column;
   align-items: center;
 }
-.create-post{
+/* .create-post{
   background-image: linear-gradient(#E0E1DD, #27274b);
+  background-color: #27274b;
   border: 1px solid #ddd;
   padding: 20px;
   margin-bottom: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   width: 80%;
   border-radius: 10px;
-}
+} */
 .post svg{
   font-size: 25px;
 }
@@ -867,12 +905,12 @@ a{
   width: 70%;
   border-radius: 10px;
 }
-.create-post h2{
+/* .create-post h2{
   text-transform: uppercase;
   letter-spacing: 0.5px;
   word-spacing: 5px;
   font-weight: 600;
-}
+} */
 .blog h2{
   color: #fff;
   text-transform: uppercase;
@@ -897,6 +935,7 @@ a{
 .post li {
   margin-bottom: 5px;
 }
+/* 
 .create-post h2 {
   color: #333;
 }
@@ -907,8 +946,8 @@ a{
   width: 100%;
   margin: 10px 0;
   padding: 10px;
-}
-.create-post button {
+} */
+/* .create-post button {
   color: #1b1b1b;
   padding: 10px 15px;
   border: none;
@@ -919,10 +958,11 @@ a{
   background-color: #F4E1F7;
   color: #2c2c54;
 }
+*/
 .blog .post button:hover{
   transition: all 0.8s ease-out;
   transform: scale(1.25);
-}
+} 
 .recent-post{
   background-color: #Fff;
   border-radius: 5px;
@@ -942,6 +982,141 @@ a{
   margin: 0px 115px 20px;
   height: 3px;
   border-radius: 9px;
+}
+.create-post, .display-recent-post {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #efebeb;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.create-post h2, .display-recent-post h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+.create-post input[type="text"], .create-post textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: #fff;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+
+.create-post input[type="text"]:focus, .create-post textarea:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.create-post textarea {
+  height: 150px;
+  resize: vertical;
+}
+
+.create-post button {
+  width: 100%;
+  padding: 12px;
+  font-size: 18px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.create-post button:hover {
+  background-color: #0056b3;
+}
+
+.display-recent-post {
+  margin-top: 40px;
+}
+
+.display-recent-post h4 {
+  font-size: 20px;
+  color: #333;
+  margin: 10px 0;
+}
+
+.display-recent-post p {
+  font-size: 16px;
+  color: #666;
+}
+
+.display-recent-post .line {
+  width: 50px;
+  height: 4px;
+  background-color: #007bff;
+  margin: 10px 0;
+  border-radius: 2px;
+}
+
+.blog-posts {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #efebeb;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.blog-posts h2 {
+  margin-bottom: 20px;
+  font-size: 26px;
+  color: #333;
+}
+
+.post {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.recent-post {
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.recent-post:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.recent-post h3 {
+  font-size: 22px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.recent-post p {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.recent-post button {
+  padding: 10px 15px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.recent-post button:hover {
+  background-color: #0056b3;
 }
 
 
