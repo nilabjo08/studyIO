@@ -420,7 +420,7 @@ a{
 .swiper-img-card{
   width: 100%;
   transition: all 0.8s;
-
+  margin-bottom: 20px;
 }
 .col-i img{
   width: 100%;
@@ -435,6 +435,7 @@ a{
 
 .swiper-card-popular{
   margin-top: 25px;
+  padding: 20px 0;
   background-color: lightgray;
   border-radius: 5px;
 }
