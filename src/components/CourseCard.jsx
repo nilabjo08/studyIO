@@ -8,7 +8,7 @@ const CourseCard = () => {
     <>
       <div className="row">
         {COURSES.map(courses =>(
-            <div key= {courses.id} className="col course-card">
+            <div key= {courses.id} className="col">
                 <img src={courses.image} sizes='20' className='course-image' alt="" />
                 <h4>{courses.heading}</h4>
                 <p>{courses.data}</p>

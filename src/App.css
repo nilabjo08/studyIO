@@ -456,7 +456,10 @@ a{
 }
 .course_card {
   max-width: 95%;
-  margin: auto;
+  /* margin: auto; */
+  margin: 20px auto;
+  padding: 30px 0;
+
 }
 .course_card .row{
   display: flex;
@@ -468,9 +471,9 @@ a{
   background-color:  #3d5597;
   color: white;
   /* color: black; */
-  box-shadow: 5px 5px 20px #3E4A1D;
+  box-shadow: 5px 5px 10px #8a99ae;
   margin: 10px;
-  padding: 15px;
+  padding: 10px 5px;
   width: 25%;
   height: 50%;
   font-size: 20px;
@@ -480,7 +483,7 @@ a{
   margin-top: 30px;
 }
 .course_card .col:hover{
-  background-color: rgb(103, 116, 189);
+  background-color: #4b68b7;
 }
 .enroll-btn{
   color: #000000;
@@ -488,7 +491,8 @@ a{
   border-radius: 10px;
   cursor: pointer;
   font-size: 17px;
-  padding: 15px;
+  padding: 10px 15px;
+  margin-bottom: 10px;
 }
 .card h4 {
   padding-bottom: 10px;
@@ -508,9 +512,7 @@ a{
 }
 
 /*---------course details---------*/
-.course-card{
-  padding: 0;
-}
+
 .course-image{
   width: 96%;
   margin-left: 2%;
