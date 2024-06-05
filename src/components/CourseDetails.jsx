@@ -18,7 +18,7 @@ const CourseDetails = () => {
   
   useEffect(() => {
     getCourse()
-  }, [])
+  }, )
 
   
 
