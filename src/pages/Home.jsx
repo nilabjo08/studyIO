@@ -17,7 +17,7 @@ const Home = () => {
   return (
     <>
       <div className="hero">
-        
+      
         <img src={require("../assets/Hero.jpg")} alt="banner" />
       </div>
       <div className="line"></div>
