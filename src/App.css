@@ -107,9 +107,32 @@ a{
 }
 /*--------------header------------------*/
 .header{
+  width:100%;
   display: flex;
   justify-content: space-between;
   color: #0d1b2a;
+}
+.home-header{
+  display: flex;
+  justify-content: space-between;
+  min-width: 70%;
+  border-radius: 10px;
+  padding: 5px 10px;
+  color: #0d1b2a;
+  position: absolute;
+  z-index: 10;
+  top: 50px;
+  background-color: #Fff;
+}
+.header-container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.ham-menu{
+  display: flex;
+  align-items: center;
+  padding: 10px;
 }
 .ham-menu svg {
   font-size: 30px;
@@ -223,6 +246,15 @@ a{
   justify-content: center;
   align-items: center;
 }
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4); /* Adjust the opacity (last value) to make it darker or lighter */
+}
 .hero > h1 {
   font-size: 5rem;
   position: absolute;
@@ -232,6 +264,7 @@ a{
 .hero img{
   width: 100%;
 }
+
 .top{
   width: 80%;
   margin: auto;
