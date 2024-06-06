@@ -22,6 +22,7 @@ const Login = () => {
           alert("Login successful!");
           navigate("/home");
         } else {
+          console.log("Login Unsuccessful");
           alert("Incorrect password! Please try again.");
         }
       })

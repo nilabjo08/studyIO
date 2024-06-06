@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom';
 
 
 
-const Book = ({ id, title, author, image, rating }) => {
+const Book = ({ id, title, author, image}) => {
     const navigate = useNavigate();
 
     const handleViewDetail = () => {
@@ -16,7 +16,7 @@ const Book = ({ id, title, author, image, rating }) => {
         <div className="book" onClick={handleViewDetail}>
             <img src={image} alt="" />
             <h3>{title}</h3>
-            <p>{rating}⭐</p>
+            <p>{author}</p>
             <button>View Details</button>
         </div>
     );

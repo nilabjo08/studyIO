@@ -21,7 +21,7 @@ const Signup = () => {
         { fullName, email, password }
       );
       console.log(result);
-      if (result.data === "User already exists") {
+      if (result.status === 409) {
         alert("E-mail already registered! Please Login to proceed.");
         navigate("/");
       } else {
